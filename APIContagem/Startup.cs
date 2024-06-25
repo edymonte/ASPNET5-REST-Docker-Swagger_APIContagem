@@ -34,7 +34,7 @@ namespace APIContagem
             }
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIContagem v1"));
-#
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
